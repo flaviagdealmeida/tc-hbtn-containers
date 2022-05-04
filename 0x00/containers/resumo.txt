@@ -1,0 +1,17 @@
+O que são contêineres?
+Contêineres, em sistemas operacionais (SO), é um método de rodar múltiplos ambientes, para aplicações ou sistemas, de maneira isolada em um único host. Isso é obtido através da criação de user spaces (isolamento do kernel), cgroups (“control groups”, isolamento de recursos do hardware, para Linux: CPU, memória, IO de disco, network, etc) e namespaces (isolamento do SO host: árvores de processos, sistema de arquivos, user ID, etc).
+
+Para que se usa um contêiner?
+A adoção de contêineres pode aumentar a produtividade de desenvolvedores, principalmente com o Docker, sem a necessidade de instalar, configurar e manter vários ambientes ao mesmo tempo, sem falar quando, em uma mesma máquina, existem 2 ou 3 versões do framework, linguagem ou biblioteca ao mesmo tempo.
+
+Quais são os benefícios dos contêineres?
+Contêineres são leves, portateis, escalaveis, economicos, exige menos gerenciamento de infraestrutura, acelera o desenvolvimento e desbloqueiam a arquitetura moderna
+
+Quais são os desafios dos contêineres?
+Contêineres são relativamente novos, nem todos os serviços podem ser conteinerizados, exigem mudanças no processo e nas habilidades, velocidade da evolução da tecnologia,
+
+Quais as diferenças entre containers e máquinas virtuais (VMs) ?
+Tanto contêineres como máquinas virtuais são "pacotes". O contêiner é um pacote que inclui seu aplicativo e tudo o que ele precisa para ser executado, exceto o sistema operacional. A máquina virtual é um pacote que inclui seu aplicativo e tudo o que ele precisa ser executado, incluindo o próprio sistema operacional
+
+Quais são as principais ferramentas e tecnologias de contêiner?
+Docker e Kubernetes são os grandes nomes na área de contêineres
