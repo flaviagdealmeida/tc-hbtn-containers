@@ -14,4 +14,4 @@ Quais as diferenças entre containers e máquinas virtuais (VMs) ?
 Tanto contêineres como máquinas virtuais são "pacotes". O contêiner é um pacote que inclui seu aplicativo e tudo o que ele precisa para ser executado, exceto o sistema operacional. A máquina virtual é um pacote que inclui seu aplicativo e tudo o que ele precisa ser executado, incluindo o próprio sistema operacional
 
 Quais são as principais ferramentas e tecnologias de contêiner?
-Docker e Kubernetes são os grandes nomes na área de contêineres
+Docker e Kubernetes são os grandes nomes na área de contêineres. Existem muitos produtos Kubernetes concorrentes no mercado, com o Kubernetes autogerenciado instalado em 50% das empresas entrevistadas pela StackRox. Os cinco principais são Kubernetes autogerenciado (50%), Amazon EKS (44%), Azure AKS (31%), Red Hat OpenShift (22%) e Amazon ECS (20%).
